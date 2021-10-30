@@ -10,7 +10,9 @@ let randomTime;
 let button = document.getElementById("start");
 let text = document.getElementById("text");
 
-
+if(location.protocol != 'https:') {
+    location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+}
 
 button.onclick = function(){
   currentlyPlaying = true;
