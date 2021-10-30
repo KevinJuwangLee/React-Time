@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    background-color: #3c84f0;
+    font-family: Tahoma;
+    overflow-x: hidden;
+  }
+  
+  div {
+    font-family: Tahoma;
+  }
+  
+  
+  
+  h1 {
+    font-size: 60px;
+    animation-name: bigsmall;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+  }
+  
+  @keyframes bigsmall {
+    50% {transform: scale(1.15); letter-spacing: 1px;}
+  }
+  
+  button  {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #2b7eba;
+    /*color: white;*/
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #cookieConsent {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 150px;
+    height: 20px;
+    border: 1px solid black;
+    margin: auto
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
